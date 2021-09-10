@@ -6178,8 +6178,25 @@ header .main .spatial-center button {
   background-color: #f34b4b;
   color: white;
 }
-header .fringilla {
+header .lectus .container-lectus {
   display: flex;
+  justify-content: space-between;
+  padding: 5% 5%;
+}
+header .lectus .container-lectus .lectus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+header .lectus .container-lectus .lectus h1 {
+  font-size: 30px;
+  color: #4e4e4e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header .lectus .container-lectus .lectus p {
+  width: 60%;
 }
 
 /*# sourceMappingURL=app.css.map */
